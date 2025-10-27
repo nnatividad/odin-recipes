@@ -22,12 +22,13 @@ h1 {
     display: inline-block;
     color: white;
     vertical-align: top;
-    margin: 60px;
+    margin: 80px;
 }
 
 .inline-block img {
+    box-sizing: content-box;
     height: 320px;
-    width: 300;
+    width: auto;
     border: solid 5px;
     border-color: black;
 }
@@ -55,3 +56,14 @@ h1 {
     padding: 32px;
     margin: 0 auto;
 }
+
+#adobo {
+    height: 325px;
+    width:  300px;
+}
+
+#toron {
+    height: auto;
+    width: 320px;
+}
+
