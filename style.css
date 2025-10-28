@@ -10,12 +10,15 @@ h1 {
 
 .header h1, a {
     margin: 20px;
+    text-align: center;
 }
 
 .links {
-    box-sizing: content-box;
-    background: orange;
     text-align: center;
+}
+
+.links a{
+    font-size: 32px;
 }
 
 .inline-block {
